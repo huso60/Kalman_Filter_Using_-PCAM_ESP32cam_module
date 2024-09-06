@@ -25,7 +25,7 @@ kalman.errorCovPost = np.eye(4, dtype=np.float32)
 
 
 while True:
-    url=r'http://192.168.43.252/capture'
+    url=r'İP_CAM_URL' # URL/capture
     cap = cv2.VideoCapture(url)
     ret, frame = cap.read()
     if not ret:
